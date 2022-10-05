@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover{
+    font-size: 20px;
+}
+body {
+  background: gray;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #fff;
+}
+.container {
+  box-sizing: border-box;
+  max-width: 500px;
+  margin: auto;
+}
+
+.avatar {
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  width: 150px;
+}
+
+.text p {
+  font-size: 15px;
+  font-weight: 400;
+  font-style: italic;
+}
+.bg_red {
+  background: rgb(170, 73, 73);
+  border-radius: 20px;
+  border: 3px;
+}
+.bg_red:hover {
+  background: rgb(28, 104, 104);
+}
+.bg_orange {
+  background: rgb(164, 164, 75);
+  border-radius: 20px;
+  border: 3px;
+}
+.bg_orange:hover {
+  background: rgb(28, 104, 104);
+}
+
+.bg_yellow {
+  background: rgb(202, 209, 65);
+  border-radius: 20px;
+  border: 3px;
+}
+.bg_yellow:hover {
+  background: rgb(28, 104, 104);
+}
+.bg_green {
+  background: rgb(82, 130, 82);
+  border-radius: 20px;
+  border: 3px;
+}
+.bg_green:hover {
+  background: rgb(28, 104, 104);
+}
+.bg_blue {
+  background: rgb(71, 73, 117);
+  border-radius: 20px;
+  border: 3px;
+}
+.bg_blue:hover {
+  background: rgb(28, 104, 104);
+}
+.card {
+  padding: 15px 40px;
+  margin: 10px;
+}
+.btn{
+    background: black;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+}
+.btn:hover{
+    font-size: 20px;
+}
